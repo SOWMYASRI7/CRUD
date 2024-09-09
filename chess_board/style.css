@@ -19,11 +19,11 @@
     }
     /* Black square background and white text color for pieces */
     #black {
-        background-color: #0a0038;
+        background-color: #000000;
         color: white;  /* Set the text color to white to make pieces visible */
     }
     /* White square background and black text color for pieces */
     #white {
         background-color: #eeeed2;
-        color: #0a0038;  /* Keep the default color for white squares */
+        color: #000000;  /* Keep the default color for white squares */
     }
