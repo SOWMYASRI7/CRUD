@@ -1,0 +1,66 @@
+/* General styles for the calculator container */
+/* General styles for the calculator container */
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the display area */
+.display {
+    font-size: 2rem;
+    height: 60px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text for better readability */
+}
+
+/* General button styles */
+.btn {
+    font-size: 1.5rem;
+    width: 100%; /* Make buttons full width */
+    margin: 2px 0; /* Add margin between buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: #333; /* Dark gray text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    
+}
+
+/* Button colors */
+.btn-ac {
+    background-color: #e57373; /* Light red */
+    color: #fff; /* White text */
+}
+
+.btn-percent {
+    background-color: #b0bec5; /* Light blue-gray */
+    color: #fff; /* White text */
+}
+
+.btn-delete {
+    background-color: #b0bec5; /* Light blue-gray */
+    color: #fff; /* White text */
+}
+
+.btn-operator {
+    background-color: #ffb74d; /* Light orange */
+    color: #fff; /* White text */
+}
+
+.btn-number {
+    background-color: #e0e0e0; /* Light gray for numbers */
+    color: #333; /* Dark gray text */
+}
+
+.btn-equal {
+    background-color: #64b5f6; /* Light blue */
+    color: #fff; /* White text */
+}
